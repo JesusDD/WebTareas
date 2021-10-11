@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="custom.css" rel="stylesheet">
+    <script src="jquery-3.6.0.js"></script>
+    <script src="calculadora.js"></script>
+</head>
+
+<body>
+    <div class="container border border-dark mt-3">
+        <div class="row border-bottom border-dark">
+            <h1><strong>Calculadoras y funciones matemáticas</strong></h1>
+        </div>
+        <div class="row col-md-10 position-relative top-0 start-50 translate-middle-x">
+            <p><strong>Calculadora basica</strong></p>
+        </div>
+        <div class="input-group input-group-sm mb-3 w-25">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Numero 1:</span>
+            <input type="text" class="form-control num1" aria-label="Numero1" aria-describedby="input-num-1">
+        </div>
+        <div class="input-group input-group-sm mb-3 w-25">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Numero 2:</span>
+            <input type="text" class="form-control num2" aria-label="Numero2" aria-describedby="input-num-2">
+        </div>
+        <div class="row p-md-2 gap-2">
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary btn-sm calc-button suma" type="button">+</button>
+                <button class="btn btn-primary btn-sm calc-button resta" type="button">-</button>
+                <button class="btn btn-primary btn-sm calc-button raiz" type="button">√</button>
+            </div>
+            <div class="d-grid gap-2 d-md-block">
+                <button class="btn btn-primary btn-sm calc-button multp" type="button">*</button>
+                <button class="btn btn-primary btn-sm calc-button div" type="button">/</button>
+                <button class="btn btn-primary btn-sm calc-button unoSX" type="button">1/x</button>
+            </div>
+        </div>
+        <div class="input-group input-group-sm mb-3 w-25">
+            <span class="input-group-text" id="inputGroup-sizing-sm">Resultado:</span>
+            <input type="text" class="form-control" aria-label="Resultado" aria-describedby="output-Resultado" id="result">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
